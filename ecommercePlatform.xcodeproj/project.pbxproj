@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		486612651E78E49A005A6B92 /* AutoCompleteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 486612641E78E49A005A6B92 /* AutoCompleteView.xib */; };
+		48BEC53F1E7DAB17008E0ED2 /* ShoppingList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48BEC53E1E7DAB17008E0ED2 /* ShoppingList.plist */; };
+		48BFF1651E7A27EB00815177 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BFF1621E7A27EB00815177 /* CoreGraphics.framework */; };
+		48BFF1661E7A27EB00815177 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BFF1631E7A27EB00815177 /* Foundation.framework */; };
+		48BFF1671E7A27EB00815177 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BFF1641E7A27EB00815177 /* UIKit.framework */; };
+		48DF588E1E6CCEA200057DD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48DF588C1E6CCEA200057DD9 /* Main.storyboard */; };
+		48DF58901E6CCEA200057DD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48DF588F1E6CCEA200057DD9 /* Assets.xcassets */; };
+		48DF58B11E74964300057DD9 /* UIColor+OrShopColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DF58A61E6F97F300057DD9 /* UIColor+OrShopColors.m */; };
+		48DF58B21E74964300057DD9 /* NSArray+StringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DF58A91E70E19D00057DD9 /* NSArray+StringHelper.m */; };
+		48DF58B31E74964300057DD9 /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DF589C1E6CD4C000057DD9 /* Store.m */; };
+		48DF58B51E74964300057DD9 /* ShoppingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DF58A21E6F8FAE00057DD9 /* ShoppingItem.m */; };
+		48DF58B61E74964300057DD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DF58871E6CCEA200057DD9 /* AppDelegate.m */; };
+		48DF58B71E74964300057DD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DF58841E6CCEA200057DD9 /* main.m */; };
+		48DF58B81E74969B00057DD9 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DF589F1E6E453E00057DD9 /* Item.m */; };
+		48DF58B91E7496CB00057DD9 /* DataSourceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DF58AD1E70F11300057DD9 /* DataSourceController.m */; };
+		48DF58BC1E74DA2E00057DD9 /* StoreTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DF58BB1E74DA2E00057DD9 /* StoreTableViewController.m */; };
+		48DF58C01E75FF2A00057DD9 /* ShoppingListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DF58BF1E75FF2A00057DD9 /* ShoppingListTableViewController.m */; };
+		48DF58C31E76114400057DD9 /* ShoppingItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DF58C21E76114400057DD9 /* ShoppingItemCell.m */; };
+		48DF58C51E76188400057DD9 /* ShoppingItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DF58C41E76188400057DD9 /* ShoppingItemViewController.m */; };
+		48DF58C81E7782E100057DD9 /* AutoCompleteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DF58C71E7782E100057DD9 /* AutoCompleteView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		486612641E78E49A005A6B92 /* AutoCompleteView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoCompleteView.xib; sourceTree = "<group>"; };
+		48BEC53E1E7DAB17008E0ED2 /* ShoppingList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ShoppingList.plist; sourceTree = "<group>"; };
+		48BFF1621E7A27EB00815177 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		48BFF1631E7A27EB00815177 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		48BFF1641E7A27EB00815177 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		48BFF1681E7A293300815177 /* ECommerce-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ECommerce-Prefix.pch"; sourceTree = "<group>"; };
+		48DF58801E6CCEA200057DD9 /* ecommercePlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ecommercePlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48DF58841E6CCEA200057DD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48DF58861E6CCEA200057DD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48DF58871E6CCEA200057DD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48DF588D1E6CCEA200057DD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48DF588F1E6CCEA200057DD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48DF58941E6CCEA200057DD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48DF589B1E6CCF4900057DD9 /* Store.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
+		48DF589C1E6CD4C000057DD9 /* Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
+		48DF589E1E6E40D800057DD9 /* Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		48DF589F1E6E453E00057DD9 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		48DF58A11E6F8D1B00057DD9 /* ShoppingItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingItem.h; sourceTree = "<group>"; };
+		48DF58A21E6F8FAE00057DD9 /* ShoppingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingItem.m; sourceTree = "<group>"; };
+		48DF58A51E6F929400057DD9 /* UIColor+OrShopColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+OrShopColors.h"; sourceTree = "<group>"; };
+		48DF58A61E6F97F300057DD9 /* UIColor+OrShopColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+OrShopColors.m"; sourceTree = "<group>"; };
+		48DF58A81E70E09D00057DD9 /* NSArray+StringHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+StringHelper.h"; sourceTree = "<group>"; };
+		48DF58A91E70E19D00057DD9 /* NSArray+StringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+StringHelper.m"; sourceTree = "<group>"; };
+		48DF58AC1E70EDE700057DD9 /* DataSourceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataSourceController.h; sourceTree = "<group>"; };
+		48DF58AD1E70F11300057DD9 /* DataSourceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSourceController.m; sourceTree = "<group>"; };
+		48DF58BA1E74D9E300057DD9 /* StoreTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoreTableViewController.h; sourceTree = "<group>"; };
+		48DF58BB1E74DA2E00057DD9 /* StoreTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreTableViewController.m; sourceTree = "<group>"; };
+		48DF58BD1E74DC0500057DD9 /* ShoppingListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingListTableViewController.h; sourceTree = "<group>"; };
+		48DF58BE1E74DC2E00057DD9 /* ShoppingItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingItemViewController.h; sourceTree = "<group>"; };
+		48DF58BF1E75FF2A00057DD9 /* ShoppingListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingListTableViewController.m; sourceTree = "<group>"; };
+		48DF58C11E760D8500057DD9 /* ShoppingItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingItemCell.h; sourceTree = "<group>"; };
+		48DF58C21E76114400057DD9 /* ShoppingItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingItemCell.m; sourceTree = "<group>"; };
+		48DF58C41E76188400057DD9 /* ShoppingItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingItemViewController.m; sourceTree = "<group>"; };
+		48DF58C61E77823F00057DD9 /* AutoCompleteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoCompleteView.h; sourceTree = "<group>"; };
+		48DF58C71E7782E100057DD9 /* AutoCompleteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCompleteView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48DF587D1E6CCEA200057DD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BFF1651E7A27EB00815177 /* CoreGraphics.framework in Frameworks */,
+				48BFF1661E7A27EB00815177 /* Foundation.framework in Frameworks */,
+				48BFF1671E7A27EB00815177 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48BFF1611E7A27EA00815177 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48BFF1621E7A27EB00815177 /* CoreGraphics.framework */,
+				48BFF1631E7A27EB00815177 /* Foundation.framework */,
+				48BFF1641E7A27EB00815177 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48DF58771E6CCEA200057DD9 = {
+			isa = PBXGroup;
+			children = (
+				48DF58821E6CCEA200057DD9 /* ecommercePlatform */,
+				48DF58811E6CCEA200057DD9 /* Products */,
+				48BFF1611E7A27EA00815177 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48DF58811E6CCEA200057DD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48DF58801E6CCEA200057DD9 /* ecommercePlatform.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48DF58821E6CCEA200057DD9 /* ecommercePlatform */ = {
+			isa = PBXGroup;
+			children = (
+				48DF58AF1E745FD500057DD9 /* View Controllers */,
+				48DF58AB1E70EDC400057DD9 /* Controllers */,
+				48DF58A41E6F926E00057DD9 /* Support Classes */,
+				48DF589A1E6CCF1C00057DD9 /* Model */,
+				48DF58861E6CCEA200057DD9 /* AppDelegate.h */,
+				48DF58871E6CCEA200057DD9 /* AppDelegate.m */,
+				48DF588C1E6CCEA200057DD9 /* Main.storyboard */,
+				48DF588F1E6CCEA200057DD9 /* Assets.xcassets */,
+				48DF58941E6CCEA200057DD9 /* Info.plist */,
+				48DF58831E6CCEA200057DD9 /* Supporting Files */,
+				48BFF1681E7A293300815177 /* ECommerce-Prefix.pch */,
+			);
+			path = ecommercePlatform;
+			sourceTree = "<group>";
+		};
+		48DF58831E6CCEA200057DD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48DF58841E6CCEA200057DD9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48DF589A1E6CCF1C00057DD9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48DF589B1E6CCF4900057DD9 /* Store.h */,
+				48DF589C1E6CD4C000057DD9 /* Store.m */,
+				48DF589E1E6E40D800057DD9 /* Item.h */,
+				48DF589F1E6E453E00057DD9 /* Item.m */,
+				48DF58A11E6F8D1B00057DD9 /* ShoppingItem.h */,
+				48DF58A21E6F8FAE00057DD9 /* ShoppingItem.m */,
+				48BEC53E1E7DAB17008E0ED2 /* ShoppingList.plist */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		48DF58A41E6F926E00057DD9 /* Support Classes */ = {
+			isa = PBXGroup;
+			children = (
+				48DF58A51E6F929400057DD9 /* UIColor+OrShopColors.h */,
+				48DF58A61E6F97F300057DD9 /* UIColor+OrShopColors.m */,
+				48DF58A81E70E09D00057DD9 /* NSArray+StringHelper.h */,
+				48DF58A91E70E19D00057DD9 /* NSArray+StringHelper.m */,
+			);
+			name = "Support Classes";
+			sourceTree = "<group>";
+		};
+		48DF58AB1E70EDC400057DD9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				48DF58AC1E70EDE700057DD9 /* DataSourceController.h */,
+				48DF58AD1E70F11300057DD9 /* DataSourceController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		48DF58AF1E745FD500057DD9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				48DF58BA1E74D9E300057DD9 /* StoreTableViewController.h */,
+				48DF58BB1E74DA2E00057DD9 /* StoreTableViewController.m */,
+				48DF58BD1E74DC0500057DD9 /* ShoppingListTableViewController.h */,
+				48DF58BE1E74DC2E00057DD9 /* ShoppingItemViewController.h */,
+				48DF58BF1E75FF2A00057DD9 /* ShoppingListTableViewController.m */,
+				48DF58C11E760D8500057DD9 /* ShoppingItemCell.h */,
+				48DF58C21E76114400057DD9 /* ShoppingItemCell.m */,
+				48DF58C41E76188400057DD9 /* ShoppingItemViewController.m */,
+				48DF58C61E77823F00057DD9 /* AutoCompleteView.h */,
+				48DF58C71E7782E100057DD9 /* AutoCompleteView.m */,
+				486612641E78E49A005A6B92 /* AutoCompleteView.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48DF587F1E6CCEA200057DD9 /* ecommercePlatform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48DF58971E6CCEA200057DD9 /* Build configuration list for PBXNativeTarget "ecommercePlatform" */;
+			buildPhases = (
+				48DF587C1E6CCEA200057DD9 /* Sources */,
+				48DF587D1E6CCEA200057DD9 /* Frameworks */,
+				48DF587E1E6CCEA200057DD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ecommercePlatform;
+			productName = ecommercePlatform;
+			productReference = 48DF58801E6CCEA200057DD9 /* ecommercePlatform.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48DF58781E6CCEA200057DD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Muhammad Suhail";
+				TargetAttributes = {
+					48DF587F1E6CCEA200057DD9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 86TZ9J7U3J;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 48DF587B1E6CCEA200057DD9 /* Build configuration list for PBXProject "ecommercePlatform" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48DF58771E6CCEA200057DD9;
+			productRefGroup = 48DF58811E6CCEA200057DD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48DF587F1E6CCEA200057DD9 /* ecommercePlatform */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48DF587E1E6CCEA200057DD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BEC53F1E7DAB17008E0ED2 /* ShoppingList.plist in Resources */,
+				48DF58901E6CCEA200057DD9 /* Assets.xcassets in Resources */,
+				486612651E78E49A005A6B92 /* AutoCompleteView.xib in Resources */,
+				48DF588E1E6CCEA200057DD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48DF587C1E6CCEA200057DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48DF58B91E7496CB00057DD9 /* DataSourceController.m in Sources */,
+				48DF58B81E74969B00057DD9 /* Item.m in Sources */,
+				48DF58BC1E74DA2E00057DD9 /* StoreTableViewController.m in Sources */,
+				48DF58C81E7782E100057DD9 /* AutoCompleteView.m in Sources */,
+				48DF58B11E74964300057DD9 /* UIColor+OrShopColors.m in Sources */,
+				48DF58B21E74964300057DD9 /* NSArray+StringHelper.m in Sources */,
+				48DF58B31E74964300057DD9 /* Store.m in Sources */,
+				48DF58B51E74964300057DD9 /* ShoppingItem.m in Sources */,
+				48DF58B61E74964300057DD9 /* AppDelegate.m in Sources */,
+				48DF58B71E74964300057DD9 /* main.m in Sources */,
+				48DF58C51E76188400057DD9 /* ShoppingItemViewController.m in Sources */,
+				48DF58C01E75FF2A00057DD9 /* ShoppingListTableViewController.m in Sources */,
+				48DF58C31E76114400057DD9 /* ShoppingItemCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48DF588C1E6CCEA200057DD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48DF588D1E6CCEA200057DD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48DF58951E6CCEA200057DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48DF58961E6CCEA200057DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48DF58981E6CCEA200057DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 86TZ9J7U3J;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ecommercePlatform/ECommerce-Prefix.pch";
+				INFOPLIST_FILE = ecommercePlatform/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.msuhail.ecommerce1.ecommercePlatform;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48DF58991E6CCEA200057DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 86TZ9J7U3J;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ecommercePlatform/ECommerce-Prefix.pch";
+				INFOPLIST_FILE = ecommercePlatform/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.msuhail.ecommerce1.ecommercePlatform;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48DF587B1E6CCEA200057DD9 /* Build configuration list for PBXProject "ecommercePlatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48DF58951E6CCEA200057DD9 /* Debug */,
+				48DF58961E6CCEA200057DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48DF58971E6CCEA200057DD9 /* Build configuration list for PBXNativeTarget "ecommercePlatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48DF58981E6CCEA200057DD9 /* Debug */,
+				48DF58991E6CCEA200057DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48DF58781E6CCEA200057DD9 /* Project object */;
+}

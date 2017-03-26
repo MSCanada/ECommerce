@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[DataSourceController arrayOfStoreNames]:DataSourceController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.storeNames">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[StoreTableViewController viewWillAppear:]:StoreTableViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[StoreTableViewController tableView:cellForRowAtIndexPath:]:StoreTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.textLabel.text">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[StoreTableViewController tableView:numberOfRowsInSection:]:StoreTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.dataSource.stores.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AutoCompleteView reloadDataSourceUsingArray:andString:]:AutoCompleteView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.dataSource">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ShoppingItemViewController itemNameTextFieldEditingChanged:]:ShoppingItemViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "sender.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
